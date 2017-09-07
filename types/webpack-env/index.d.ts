@@ -60,7 +60,7 @@ declare namespace __WebpackModuleApi {
         loaded: boolean;
         parent: any;
         children: any[];
-        hot: Hot;
+        hot?: Hot;
     }
     type ModuleId = string|number;
 
